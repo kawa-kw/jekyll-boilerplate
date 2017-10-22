@@ -1,1 +1,1 @@
-# stork
+# Jekyll boilerplate
