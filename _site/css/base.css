@@ -2167,18 +2167,6 @@
 .fa-meetup:before {
   content: ""; }
 
-.stroke-color {
-  stroke: #d2d2d2; }
-
-.stroke-color-oposite {
-  stroke: #432969; }
-
-.fill-color {
-  fill: #432969; }
-
-.fill-color-oposite {
-  fill: #d2d2d2; }
-
 /* variables.grid */
 /* tools.mixins.appearance */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -2230,11 +2218,15 @@ table {
 
 body {
   font-size: calc(.3vw + 13px);
+  font-weight: 300;
   line-height: 1.8em;
   position: relative;
   width: 100vw;
+  min-height: 100vh;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #fff;
+  background-image: radial-gradient(farthest-corner at 40px 40px, #42424d 0%, #05090f 100%); }
 
 button {
   border: 0;
