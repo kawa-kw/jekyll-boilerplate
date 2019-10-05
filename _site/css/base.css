@@ -2252,14 +2252,14 @@ textarea {
 
 input,
 textarea {
-  margin-bottom: 50px; }
+  margin-bottom: 3.125rem; }
 
 textarea {
   min-height: 100px;
   resize: vertical; }
 
 h1 {
-  font-size: 18px; }
+  font-size: 1.125rem; }
 
 a {
   text-decoration: none; }
